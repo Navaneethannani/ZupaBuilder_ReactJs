@@ -1,0 +1,29 @@
+.container3{
+    background-color: hsl(39, 100%, 57%);
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: white;
+}
+.box h3{
+    font-weight:800;
+    font-size: 30px;
+}
+.box p{
+    font-weight: 500;
+    font-size: 15px;
+}
+hr{
+    position: relative;
+    width: 60px;
+    border: 2px;
+    height: 3px;
+    border-radius: 100px;
+    background: hsl(54, 77%, 57%);
+}

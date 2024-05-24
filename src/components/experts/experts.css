@@ -1,0 +1,43 @@
+#experts{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.container2{
+    margin-top: 10px;
+    background-color: hsl(180, 16%, 94%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ex-heading{
+    padding: 20px;
+    width: 50%;
+}
+.ex-heading span{
+    color: black;
+}
+#img1{
+    padding: 20px;
+    float: right;
+    width: 50%;
+    height: 40%;
+    
+}
+.para{
+    padding: 20px;
+    width: 50%;
+}
+.hr-line{
+    margin-right: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    position: relative;
+    width: 60px;
+    border: 2px;
+    height: 3px;
+    border-radius: 100px;
+    background: hsl(54, 77%, 57%);
+}

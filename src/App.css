@@ -1,0 +1,37 @@
+.container{
+  background-color: hsl(39, 100%, 57%);
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav ul li{
+  display: inline;
+  list-style: none;
+  margin: 10px 20px;
+  width: 50px;
+}
+.contents-color{
+  color: black;
+}
+.contents a:hover{
+  color: hsl(39, 100%, 57%);
+}
+nav ul li a{
+  text-decoration: none;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 20px;
+  color: white;
+}
+.icons i:hover{
+  color: black;
+}
